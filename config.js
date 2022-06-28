@@ -11,9 +11,9 @@ if (!gg) {
 global.owner = gg.split(",");
 global.mongodb = process.env.MONGODB || "none"
 global.port = process.env.PORT || 8080
-global.packname = process.env.PACKNAME || "kaguya",
+global.packname = process.env.PACKNAME || "𝐌𝐚𝐫𝐒𝐇𝐬𝐚𝐧🐾",
 global.prefix= process.env.PREFIX || "-",
-global.author = process.env.AUTHOR || "ARUS",
+global.author = process.env.AUTHOR || "𝐇𝐨𝐜𝐮𝐬𝐏𝐨𝐜𝐮𝐬 𝐦𝐚𝐠𝐢𝐜",
 global.sessionName = 'arus',
 global.name = process.env.NAME || "Mizuhara",
 global.menu = "🎫 Kenma\'s Command List* 🎫\n\n💻 *Dev*\n❐ ```update, broadcast, ban, unban, chatid, session, join```\n\n🔮 *General*\n❐ ```help, delete, info, rank, profile```\n\n💠 *Fun*\n❐ ```ship, advice, quote, leaderboard, react, fact, bot```\n\n🔈 *Media*\n❐ ```yta, ytv, play, gify, yts, lyrics```\n\n👑 *Moderation*\n❐ ```demote, remove, ping, promote, deact, act, invite, group, seticon, setdesc```\n\n💮 *Weeb*\n❐ ```anime, manga, charecter, haigusha, neko, waifu, pokemon```\n\n🖇 *Utils*\n❐ ```google, image, meme, subreddit, tourl, img, iguser, gif, sticker, take, pinterest, carbon```\n\n🗃️ *Note: *Calls and Dm will lead you to ban*",
