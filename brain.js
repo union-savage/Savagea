@@ -175,7 +175,7 @@ case '':
 ]
 let buttonMessaged = {
         text: `Hey *${pushname}* I am ${name}. Do you mean: ${prefix}help`,
-        footer: '@ARUS',
+        footer: '@Elaina',
         buttons: dbut,
         headerType: 4
     }
@@ -216,7 +216,7 @@ let ter = `🧧 *Commands*: 55\n🔧 *Users*: ${tr}\n💚 *Groups*: ${ur}\n🚫 
 console.log(ter)
    let buttonMessaged = {
         text: ter,
-        footer: '@ARUS',
+        footer: '@Elaina',
         buttons: dbut,
         headerType: 4
     }
@@ -772,7 +772,7 @@ if (!isBotAdmins) return m.reply("❌ Cannot execute without being admin")
 ]
 const listMessage = {
   text: "Choose the required setting",
-  footer: "@ARUS",
+  footer: "@Elaina",
   title: "",
   buttonText: "settings",
   sections
@@ -1725,7 +1725,7 @@ break
                 for (let i of anu) {
                     //await sleep(1500)
 
-  let txt = `🔰</ _*Arus Broadcast*_ >🔰\n\n🍀 *Author:* ${pushname}\n\n🔖 *Message:* ${bct}`
+  let txt = `🔰</ _*Elaina Broadcast*_ >🔰\n\n🍀 *Author:* ${pushname}\n\n🔖 *Message:* ${bct}`
 //const stick=fs.readFileSync(`./src/right.webp`)
 //await arus.sendMessage(m.chat,{sticker:stick},{quoted:m})
 await arus.sendMessage(i, { video: { url: "https://telegra.ph/file/3c3f94c8463e7f9c29d73.mp4" }, mimetype: 'video/mp4', fileName: `bc.mp4`, caption: `${txt}` })
