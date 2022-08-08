@@ -42,7 +42,7 @@ const PORT = port
 const app = express();
 let QR_GENERATE = "invalid";
 async function startArus() {
-    CFonts.say('MIZUHARA\nBY\nARUS', {
+    CFonts.say('Elaina\nBY\nSavage', {
         font: 'block',
         align: 'center',
         gradient: ['blue', 'magenta']
